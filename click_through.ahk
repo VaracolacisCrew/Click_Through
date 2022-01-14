@@ -71,6 +71,8 @@ OPAQUE:
     {
         CTEnabled := true
         Goto, NCTHROUGH
+    } else {
+         Menu, Tray, Disable,  - Make Click Through
     }
 Return
 
